@@ -36,4 +36,4 @@ def predict(line, n_predictions=3):
 
 
 if __name__ == '__main__':
-    predict(sys.argv[1])
+    predict(sys.argv[0])

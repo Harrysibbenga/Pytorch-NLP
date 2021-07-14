@@ -4,7 +4,7 @@ from predict import *
 
 @route('/<input_line>')
 def index(input_line):
-    return {'result': predict(input_line, 10)}
+    return {'result': predict(input_line, 2)}
 
 
 run(host='localhost', port=5533)
